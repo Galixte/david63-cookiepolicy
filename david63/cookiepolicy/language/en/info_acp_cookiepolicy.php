@@ -51,9 +51,9 @@ $lang = array_merge($lang, array(
 	'COOKIE_BOX_POSITION_EXPLAIN'		=> 'Position the cookie acceptance box on the left or right.',
 
 	'COOKIE_CUSTOM_BOX'					=> 'Use custom cookie box colours',
-	'COOKIE_CUSTOM_BOX_EXPLAIN'			=> 'Use the custom colours for the Cookie acceptance box.<br />Setting this to <strong>No</strong> will use the default colours.',
+	'COOKIE_CUSTOM_BOX_EXPLAIN'			=> 'Use the custom colours for theCookie acceptance box.<br />Setting this to <strong>No</strong> will use the default colours.',
 	'COOKIE_CUSTOM_PAGE'				=> 'Use custom cookie page colours',
-	'COOKIE_CUSTOM_PAGE_EXPLAIN'		=> 'Use the custom colours for the Cookie policy page.<br />Setting this to <strong>No</strong> will use the default colours.',
+	'COOKIE_CUSTOM_PAGE_EXPLAIN'		=> 'Use the custom colours for theCookie policy page.<br />Setting this to <strong>No</strong> will use the default colours.',
 
 	'COOKIE_DETECT'						=> 'Detect if cookie is required',
 	'COOKIE_DETECT_EXPLAIN'				=> 'This will try to detect if the user is in an EU state and will only require cookie acceptance for these users.<br /><strong>Note:</strong> This may not be accurate and it is not recommended for boards where the majority of users are expected to be from the EU.',
@@ -94,4 +94,9 @@ $lang = array_merge($lang, array(
 	'LOG_COOKIE_ERROR'					=> '<strong>Failed IP lookup</stong>',
 	'LOG_CURL_ERROR'					=> '<strong>cURL is not available on this server</stong>',
 	'LOG_SERVER_ERROR'					=> '<strong>Could not connect to IP server</strong>',
+
+	'UNBAN_IP'							=> 'Unban IP address',
+	'UNBAN_IP_EXPLAIN'					=> 'The system will automatically ban any IP address making over 250 requests per minute. If your IP address has been banned, <a href="http://ip-api.com/docs/unban">click here</a> to access an unban form.',
+
+	'YOUR_IP'							=> 'Your server IP address appears to be',
 ));

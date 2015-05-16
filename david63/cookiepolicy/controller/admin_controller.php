@@ -106,6 +106,8 @@ class admin_controller implements admin_interface
 			'COOKIE_POLICY_ON_INDEX'	=> isset($this->config['cookie_on_index']) ? $this->config['cookie_on_index'] : '',
 			'COOKIE_SHOW_POLICY'		=> isset($this->config['cookie_show_policy']) ? $this->config['cookie_show_policy'] : '',
 
+			'SERVER_IP'					=> $this->request->variable('SERVER_ADDR', '', false, \phpbb\request\request_interface::SERVER),
+
 			'U_ACTION' => $this->u_action,
 		));
 	}

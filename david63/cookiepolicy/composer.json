@@ -4,7 +4,7 @@
 	"description": "Adds an option for the user to accept the use of cookies, under EU Cookie Directive (2012), on the forum",
 	"homepage": "",
 	"version": "1.1.1",
-	"time": "2014-11-30",
+	"time": "2015-05-16",
 	"keywords": [
 		"phpbb",
 		"extension",
@@ -33,12 +33,7 @@
 	"extra": {
 		"display-name": "Cookie Policy",
 		"soft-require": {
-			"phpbb/phpbb": ">=3.1.3,<3.2.*@dev"
-      },
-		"version-check": {
-			"host": "webworld.xyz",
-			"directory": "/versioncheck",
-			"filename": "cookiepolicy_versions.json"
+			"phpbb/phpbb": ">=3.1.4,<3.2.*@dev"
 		}
 	}
 }

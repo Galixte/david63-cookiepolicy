@@ -118,8 +118,6 @@ class listener implements EventSubscriberInterface
 				// Check if cURL is available on the server
 				if (in_array('curl', get_loaded_extensions()))
 				{
-					$eu_array = array('AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'ES', 'EU', 'FI', 'FR', 'FX', 'GB', 'GR', 'HR', 'HU', 'IE', 'IM', 'IT', 'LT', 'LU', 'LV', 'MT', 'NL', 'PL', 'PT', 'RO', 'SE', 'SI', 'SK', 'UK');
-
 					$curl_handle = curl_init();
 					curl_setopt($curl_handle, CURLOPT_CONNECTTIMEOUT, 2);
 					curl_setopt($curl_handle, CURLOPT_RETURNTRANSFER, 1);
@@ -135,6 +133,7 @@ class listener implements EventSubscriberInterface
 					else
 					{
 						$ip_array = json_decode($ip_query, true);
+						$eu_array = array('AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'ES', 'EU', 'FI', 'FR', 'FX', 'GB', 'GR', 'HR', 'HU', 'IE', 'IM', 'IT', 'LT', 'LU', 'LV', 'MT', 'NL', 'PL', 'PT', 'RO', 'SE', 'SI', 'SK', 'UK');
 
 						if ($ip_array['status'] == 'success' && !in_array($ip_array['countryCode'], $eu_array))
 						{
