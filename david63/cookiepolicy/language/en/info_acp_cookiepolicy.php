@@ -51,9 +51,9 @@ $lang = array_merge($lang, array(
 	'COOKIE_BOX_POSITION_EXPLAIN'		=> 'Position the cookie acceptance box on the left or right.',
 
 	'COOKIE_CUSTOM_BOX'					=> 'Use custom cookie box colours',
-	'COOKIE_CUSTOM_BOX_EXPLAIN'			=> 'Use the custom colours for theCookie acceptance box.<br />Setting this to <strong>No</strong> will use the default colours.',
+	'COOKIE_CUSTOM_BOX_EXPLAIN'			=> 'Use the custom colours for the Cookie acceptance box.<br />Setting this to <strong>No</strong> will use the default colours.',
 	'COOKIE_CUSTOM_PAGE'				=> 'Use custom cookie page colours',
-	'COOKIE_CUSTOM_PAGE_EXPLAIN'		=> 'Use the custom colours for theCookie policy page.<br />Setting this to <strong>No</strong> will use the default colours.',
+	'COOKIE_CUSTOM_PAGE_EXPLAIN'		=> 'Use the custom colours for the Cookie policy page.<br />Setting this to <strong>No</strong> will use the default colours.',
 
 	'COOKIE_DETECT'						=> 'Detect if cookie is required',
 	'COOKIE_DETECT_EXPLAIN'				=> 'This will try to detect if the user is in an EU state and will only require cookie acceptance for these users.<br /><strong>Note:</strong> This may not be accurate and it is not recommended for boards where the majority of users are expected to be from the EU.',
