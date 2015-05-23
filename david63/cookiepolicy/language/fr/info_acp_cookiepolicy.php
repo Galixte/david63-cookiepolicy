@@ -74,7 +74,7 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_POLICY'						=> 'Politique des cookies',
 	'COOKIE_POLICY_ENABLE'				=> 'Activer la politique des cookies',
-	'COOKIE_POLICY_ENABLE_EXPLAIN'		=> 'Active/désactive sur le forum la condition requise d’accepter les cookies pour tous les utilisateurs étant concernés par la directive EU Cookie (2012).',
+	'COOKIE_POLICY_ENABLE_EXPLAIN'		=> 'Active / désactive sur le forum la condition requise d’accepter les cookies pour tous les utilisateurs étant concernés par la directive EU Cookie (2012).',
 	'COOKIE_POLICY_EXPLAIN'				=> 'Définir les options pour gérer la politique des cookies.',
 	'COOKIE_POLICY_LOG'					=> '<strong>Les paramètres de la politique des cookies ont été mise à jour</strong>',
 	'COOKIE_POLICY_MANAGE'				=> 'Gestion des paramètres',
@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_RIGHT'						=> 'Droite',
 
 	'COOKIE_SHOW_POLICY'				=> 'Afficher la politique des cookies',
-	'COOKIE_SHOW_POLICY_EXPLAIN'		=> 'Paramétrer cette option sur oui affichera le lien de la barre de navigation de la politique des cookies lorsque la politique des cookies est désactivée, par exemple vous pouvez avoir une politique des cookies sans la nécessité d’avoir la boîte d’acceptation.',
+	'COOKIE_SHOW_POLICY_EXPLAIN'		=> 'Paramétrer cette option sur oui affichera le lien de la politique des cookies dans la barre de navigation lorsque la politique des cookies est désactivée, par exemple vous pouvez avoir une politique des cookies sans la nécessité d’avoir la boîte d’acceptation.',
 
 	'CUSTOM_BOX_COLOURS'				=> 'Couleurs personnalisées de la boite des cookies',
 	'CUSTOM_BOX_COLOURS_EXPLAIN'		=> '<strong>Ici vous pouvez modifier les couleurs selon votre style pour la boite d’acceptation des cookies.</strong>',
