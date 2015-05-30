@@ -18,13 +18,7 @@
 			"username": "david63",
 			"email": "david@webworld.xyz",
 			"homepage": "http://webworld.xyz",
-			"role": "Developer"},
-			{
-			"name": "Brian Grinstead",
-			"username": "",
-			"email": "",
-			"homepage": "https://github.com/bgrins/spectrum",
-			"role": "Spectrum color picker author"
+			"role": "Developer"
 		}],
 	"require": {
         "php": ">=5.3.3",
