@@ -1,10 +1,11 @@
 <?php
 /**
 *
-* @package Cookie Policy Extension
-* @copyright (c) 2014 david63
+* Cookie Policy extension for the phpBB Forum Software package.
+* French translation by Galixte (http://www.galixte.com)
+*
+* @copyright (c) 2015 david63
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @translated into French by Galixte (http://www.galixte.com)
 *
 */
 
@@ -21,7 +22,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-/// DEVELOPERS PLEASE NOTE
+// DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
 //
@@ -34,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -97,7 +98,7 @@ $lang = array_merge($lang, array(
 	'LOG_SERVER_ERROR'					=> '<strong>Impossible de se connecter à l’IP du serveur</strong>',
 
 	'UNBAN_IP'							=> 'Lever l’interdiction de l’adresse IP',
-	'UNBAN_IP_EXPLAIN'					=> 'Le système va automatiquement lever l’interdiction de toute adresse IP effectuant plus de 250 requêtes par minute. Si votre adresse IP a été bannie, <a href="http://ip-api.com/docs/unban">cliquez ici</a> pour accéder au formulaire de lever d’interdiction.',
+	'UNBAN_IP_EXPLAIN'					=> 'Le système va automatiquement lever l’interdiction de toute adresse IP effectuant plus de 250 requêtes par minute. Si votre adresse IP a été bannie, <a href="http://ip-api.com/docs/unban">cliquez ici</a> pour accéder au formulaire de levée d’interdiction.',
 
 	'YOUR_IP'							=> 'L’adresse IP de votre serveur semble être',
 ));
