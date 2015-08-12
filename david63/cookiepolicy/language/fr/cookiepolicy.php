@@ -1,10 +1,11 @@
 <?php
 /**
 *
-* @package Cookie Policy Extension
-* @copyright (c) 2014 david63
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-* @translated into French by Galixte (http://www.galixte.com)
+* Cookie Policy extension for the phpBB Forum Software package.
+* French translation by Galixte (http://www.galixte.com)
+*
+* @copyright (c) 2015 david63
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -34,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
