@@ -98,7 +98,7 @@ $lang = array_merge($lang, array(
 	'LOG_SERVER_ERROR'					=> '<strong>Impossible de se connecter à l’IP du serveur</strong>',
 
 	'UNBAN_IP'							=> 'Lever l’interdiction de l’adresse IP',
-	'UNBAN_IP_EXPLAIN'					=> 'Le système va automatiquement lever l’interdiction de toute adresse IP effectuant plus de 250 requêtes par minute. Si votre adresse IP a été bannie, <a href="http://ip-api.com/docs/unban">cliquez ici</a> pour accéder au formulaire de levée d’interdiction.',
+	'UNBAN_IP_EXPLAIN'					=> 'Le système va automatiquement bannir toute adresse IP effectuant plus de 250 requêtes par minute. Si votre adresse IP a été bannie, <a href="http://ip-api.com/docs/unban">cliquez ici</a> pour accéder au formulaire de levée d’interdiction.',
 
 	'YOUR_IP'							=> 'L’adresse IP de votre serveur semble être',
 ));
